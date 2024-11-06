@@ -1,0 +1,33 @@
+* {
+  font-family: "viga", sans-serif;
+}
+
+.jumbotron {
+  /* ... */
+  background-image: url('./images/himatika.jpeg');
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.jumbotron .jumbotron-title {
+  padding-top: 15rem;
+  color: #fff;
+  text-align: center;
+}
+
+.jumbotron .jumbotron-title h1{
+  text-shadow: 0 0 5px black;
+}
+
+section, footer {
+  overflow: hidden;
+}
+
+.sosmed {
+  color: #fff;
+}
+
+.sosmed:hover {
+  color: rgb(189, 188, 188);
+}
